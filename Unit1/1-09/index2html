@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-amber.min.css" />
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="favicon/android-chrome-192x192.png">
-  <link rel="stylesheet" href="favicon/android-chrome-512x512.png">
-  <link rel="stylesheet" href="favicon/apple-touch-icon.png">
-  <link rel="stylesheet" href="favicon/favicon-16x16.png">
-  <link rel="stylesheet" href="favicon/favicon-32x32.png">
-  <link rel="stylesheet" href="favicon/favicon.ico">
-  <link rel="stylesheet" href="favicon/site.webmanifest">
+  <link rel="Icon" href="favicon/android-chrome-192x192.png">
+  <link rel="Icon" href="favicon/android-chrome-512x512.png">
+  <link rel="Icon" href="favicon/apple-touch-icon.png">
+  <link rel="Icon" href="favicon/favicon-16x16.png">
+  <link rel="Icon" href="favicon/favicon-32x32.png">
+  <link rel="Icon" href="favicon/favicon.ico">
+  <link rel="Icon" href="favicon/site.webmanifest">
   <link rel="manifest" href="./favicons/site.webmanifest">
 </head>
 <body>
