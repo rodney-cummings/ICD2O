@@ -6,7 +6,7 @@
   <meta name="keywords" content="Rodney">
   <meta name="author" content="Rodney">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My new webpage, with MDL components</title>
+  <title>kai cenat</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-amber.min.css" />
   <link rel="stylesheet" href="./css/style.css">
@@ -48,37 +48,36 @@
       <br>
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="sample1">
+          <input id="userInput" class="mdl-textfield__input" type="text" id="sample1">
           <label class="mdl-textfield__label" for="sample1">.</label>
         </div>
       </form>
-      <a
-        <!-- Raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+      <a <!-- Raised button with ripple -->
+        <button id="searchbutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
           Button
         </button>
       </a>
       <button id="clearButton" class="mdl-button mdl-js-button">Clear</button>
-      
+
     </main>
   </div>
   <div id="subject-pictures">
   </div>
   <script>
-      const button = document.getElementById('searhchbutton');
-      const input = document.getElementById('userInput');
-      
-      
-      button.addEventlistener('click', function () {
+    const button = document.getElementById('searchbutton');
+    const input = document.getElementById('userInput');
+
+
+    button.addEventListener('click', function () {
       const q = (input.value || '').trim();
       const url = 'https://www.google.com/search?q=' + encodeURIComponent(q);
       window.open(url, '_blank');
-      });
+    });
 
-      document.getElementById('clearButton').addEventlistener('click')() = > {
-          document.getElementById('userInput').vaule = '';
-          dockument.getElementById('userInput').focus();
-        });
-      </script>
+    document.getElementById('clearButton').addEventListener('click', () => {
+      document.getElementById('userInput').value = '';
+      document.getElementById('userInput').focus();
+    });
+  </script>
 </body>
 </html>
