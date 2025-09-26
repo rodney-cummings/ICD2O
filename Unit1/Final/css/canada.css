@@ -3,5 +3,8 @@
   border-radius: 12px;
   padding: 5px;
 }
-
+.img_container {
+  width: 100%;
+  text-align: center;
+}
 </style>
